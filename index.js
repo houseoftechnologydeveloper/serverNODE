@@ -5,7 +5,7 @@ var io = require('socket.io')(http);
 var users = [];
 var index = 0;
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + 'index.html'));
 
 function findIndexByUID(uid)
 {
